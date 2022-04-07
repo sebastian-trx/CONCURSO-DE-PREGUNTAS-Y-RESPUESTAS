@@ -1,0 +1,8 @@
+export const GET_INFO= "GET_INFO";
+export const LOCAL_LOGIN = "LOCAL_LOGIN";
+export const SIGN_UP = "SIGN_UP"
+export const LOGOUT = "LOGOUT"
+export const GET_QUESTIONS = "GET_QUESTIONS"
+export const UPDATE_USER_SCORE = "UPDATE_USER_SCORE"
+export const RANDOM_QUESTION_BY_LEVEL = "RANDOM_QUESTION_BY_LEVEL"
+export const POST_QUESTION = "POST_QUESTION"

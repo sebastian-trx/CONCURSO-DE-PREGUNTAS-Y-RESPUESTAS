@@ -1,0 +1,60 @@
+.Home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10% 10% 0 10%;
+}
+
+.informationContainer{
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    border: solid 1px black;
+    background-color: slateblue;
+    color: azure;
+}
+
+.informationGame > button {
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.informationGame{
+    margin-left: 15px;
+}
+
+.questionContainer{
+    height: 400px;
+    width: 300px;
+    border: solid 1px black;
+    border-radius: 15px;
+    background-color: slateblue;
+}
+
+.tituloQuestion{
+    height: 100px;
+    width: 270px;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: azure;
+    font-size: large;
+}
+
+.answerContainer{
+    height: 250px;
+    width: 270px;
+    margin-top: 10px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.answerContainer > button {
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+}
